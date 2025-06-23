@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markets of Puces de Saint-Ouen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="vendors/animate.css/animate.min.css">
+    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="Puces de Saint-Ouen">
+                </a>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="markets.html" class="active">Markets</a></li>
+                    <li><a href="visit.html">Visit</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/markets-hero.jpg');">
+        <div class="container">
+            <h1 class="animate__animated animate__fadeInDown">Our Markets</h1>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">Discover the 15 unique markets that make up Puces de Saint-Ouen</p>
+        </div>
+    </section>
+
+    <section class="markets-intro">
+        <div class="container">
+            <div class="intro-content" data-aos="fade-up">
+                <h2>Explore Our Diverse Markets</h2>
+                <p>Puces de Saint-Ouen is composed of 15 distinct markets, each with its own specialty and atmosphere. From high-end antiques to quirky vintage finds, there's something for every taste and budget.</p>
+                <div class="market-filter">
+                    <button class="filter-btn active" data-filter="all">All Markets</button>
+                    <button class="filter-btn" data-filter="antiques">Antiques</button>
+                    <button class="filter-btn" data-filter="vintage">Vintage</button>
+                    <button class="filter-btn" data-filter="specialty">Specialty</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="markets-listing">
+        <div class="container">
+            <div class="markets-container">
+                <!-- Market 1 -->
+                <div class="market-item" data-category="antiques" id="vernaison" data-aos="fade-up">
+                    <div class="market-img">
+                        <img src="images/market-vernaison.jpg" alt="Marché Vernaison">
+                    </div>
+                    <div class="market-details">
+                        <h3>Marché Vernaison</h3>
+                        <div class="market-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Allée 1, Rue des Rosiers</span>
+                            <span><i class="fas fa-clock"></i> Sat-Mon: 9am-6pm</span>
+                        </div>
+                        <p>The oldest and most picturesque market, established in 1920. Features small, quirky stalls with a bohemian atmosphere. Specializes in small antiques, vintage toys, and collectibles.</p>
+                        <div class="market-tags">
+                            <span class="tag">Antiques</span>
+                            <span class="tag">Collectibles</span>
+                            <span class="tag">Bohemian</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Market 2 -->
+                <div class="market-item" data-category="antiques" id="dauphine" data-aos="fade-up">
+                    <div class="market-img">
+                        <img src="images/market-dauphine.jpg" alt="Marché Dauphine">
+                    </div>
+                    <div class="market-details">
+                        <h3>Marché Dauphine</h3>
+                        <div class="market-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> 132-140 Rue des Rosiers</span>
+                            <span><i class="fas fa-clock"></i> Sat-Mon: 10am-6pm</span>
+                        </div>
+                        <p>Two floors of high-quality antiques and vintage items. Known for its professional dealers and carefully curated selection of furniture, art, and decorative objects.</p>
+                        <div class="market-tags">
+                            <span class="tag">Antiques</span>
+                            <span class="tag">Furniture</span>
+                            <span class="tag">Art</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Market 3 -->
+                <div class="market-item" data-category="vintage" id="biron" data-aos="fade-up">
+                    <div class="market-img">
+                        <img src="images/market-biron.jpg" alt="Marché Biron">
+                    </div>
+                    <div class="market-details">
+                        <h3>Marché Biron</h3>
+                        <div class="market-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> 85 Rue des Rosiers</span>
+                            <span><i class="fas fa-clock"></i> Sat-Mon: 10am-6pm</span>
+                        </div>
+                        <p>The luxury destination for high-end antiques and fine art. Specializes in 18th and 19th century furniture, paintings, and exceptional decorative pieces.</p>
+                        <div class="market-tags">
+                            <span class="tag">Luxury</span>
+                            <span class="tag">Fine Art</span>
+                            <span class="tag">Furniture</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Market 4 -->
+                <div class="market-item" data-category="vintage" id="paulbert" data-aos="fade-up">
+                    <div class="market-img">
+                        <img src="images/market-paulbert.jpg" alt="Marché Paul Bert">
+                    </div>
+                    <div class="market-details">
+                        <h3>Marché Paul Bert</h3>
+                        <div class="market-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> 110 Rue des Rosiers</span>
+                            <span><i class="fas fa-clock"></i> Sat-Mon: 9am-6pm</span>
+                        </div>
+                        <p>A favorite of interior designers, offering a mix of antiques and vintage items from the 20th century. Great for mid-century modern furniture and industrial pieces.</p>
+                        <div class="market-tags">
+                            <span class="tag">Vintage</span>
+                            <span class="tag">Mid-Century</span>
+                            <span class="tag">Industrial</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Market 5 -->
+                <div class="market-item" data-category="specialty" id="serpette" data-aos="fade-up">
+                    <div class="market-img">
+                        <img src="images/market-serpette.jpg" alt="Marché Serpette">
+                    </div>
+                    <div class="market-details">
+                        <h3>Marché Serpette</h3>
+                        <div class="market-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> 110 Rue des Rosiers</span>
+                            <span><i class="fas fa-clock"></i> Sat-Mon: 10am-6pm</span>
+                        </div>
+                        <p>Specializes in rare and unusual items from the Art Deco and Art Nouveau periods. A treasure trove for collectors of unique design pieces.</p>
+                        <div class="market-tags">
+                            <span class="tag">Art Deco</span>
+                            <span class="tag">Art Nouveau</span>
+                            <span class="tag">Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Market 6 -->
+                <div class="market-item" data-category="specialty" id="jules" data-aos="fade-up">
+                    <div class="market-img">
+                        <img src="images/market-jules.jpg" alt="Marché Jules Vallès">
+                    </div>
+                    <div class="market-details">
+                        <h3>Marché Jules Vallès</h3>
+                        <div class="market-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Avenue Michelet</span>
+                            <span><i class="fas fa-clock"></i> Sat-Mon: 9am-6pm</span>
+                        </div>
+                        <p>The place for vintage clothing, textiles, and fashion accessories from the 1920s to the 1980s. A favorite spot for fashion designers and stylists.</p>
+                        <div class="market-tags">
+                            <span class="tag">Vintage Fashion</span>
+                            <span class="tag">Textiles</span>
+                            <span class="tag">Accessories</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="market-map">
+        <div class="container">
+            <h2 class="section-title">Market Map</h2>
+            <div class="map-container" data-aos="fade-up">
+                <div class="map-overlay">
+                    <div class="map-point" style="top: 25%; left: 30%;" data-market="vernaison">
+                        <div class="point"></div>
+                        <div class="map-tooltip">Marché Vernaison</div>
+                    </div>
+                    <div class="map-point" style="top: 35%; left: 45%;" data-market="dauphine">
+                        <div class="point"></div>
+                        <div class="map-tooltip">Marché Dauphine</div>
+                    </div>
+                    <div class="map-point" style="top: 40%; left: 60%; " data-market="biron">
+                        <div class="point"></div>
+                        <div class="map-tooltip">Marché Biron</div>
+                    </div>
+                    <!-- Add more points for other markets -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Puces de Saint-Ouen</h4>
+                    <p>The world's largest antique market since 1885.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="markets.html">Markets</a></li>
+                        <li><a href="visit.html">Visit Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>138-140 Rue des Rosiers, 93400 Saint-Ouen, France</p>
+                    <p>+33 1 40 11 54 54</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Puces de Saint-Ouen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Market filtering functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const marketItems = document.querySelectorAll('.market-item');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Update active button
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    // Filter markets
+                    marketItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'flex';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Map point interactivity
+            const mapPoints = document.querySelectorAll('.map-point');
+            mapPoints.forEach(point => {
+                point.addEventListener('click', function() {
+                    const marketId = this.getAttribute('data-market');
+                    const marketElement = document.getElementById(marketId);
+                    
+                    if (marketElement) {
+                        window.scrollTo({
+                            top: marketElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                        
+                        // Highlight the market briefly
+                        marketElement.classList.add('highlight');
+                        setTimeout(() => {
+                            marketElement.classList.remove('highlight');
+                        }, 2000);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
